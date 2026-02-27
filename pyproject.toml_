@@ -1,0 +1,22 @@
+[project]
+name = "geometor-workspace"
+version = "0.1.0"
+description = "GEOMETOR Workspace"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "model",
+    "explorer",
+    "divine",
+    "elements",
+    "seer",
+]
+
+[tool.uv.sources]
+geometor-model = { workspace = true }
+geometor-divine = { workspace = true }
+geometor-explorer = { workspace = true }
+geometor-elements = { workspace = true }
+geometor-seer = { workspace = true }

@@ -1,10 +1,19 @@
-# GEOMETOR .config
+# GEOMETOR
 
-This project contains the global configuration and templates for the GEOMETOR monorepo.
+An open-source project for exploring geometry, nature, and logic.
 
-## Key Files
+## Overview
 
--   **`GEMINI.src.md`**: This file is the source template for the main `GEMINI.md` in the root of the `geometor` project. It is intended to be symlinked to `../GEMINI.md`.
--   **`install.sh`**: A script to set up the symlinks and other configurations.
--   **`pyproject.toml`**: Defines the project metadata and dependencies for the `.config` package.
--   **`README.rst`**: The main landing page for this sub-repo.
+A Python library for creating symbolic models of geometric constructions, investigating patterns in nature, and exploring abstraction and reasoning. A key motivation is the exploration of the golden ratio.
+
+## Key Repos
+
+-   **model**: The core library for geometric constructions.
+-   **explorer**: A web-based UI for the model, using Flask and SVG.
+-   **divine**: Analysis of golden sections in a model.
+-   **elements**: Explorations of Euclid's Elements.
+-   **seer**: An AI-driven framework for solving abstract reasoning challenges.
+
+
+
+
